@@ -24,6 +24,17 @@ const Home: NextPage = () => {
           Get started by editing{" "}
           <code className={styles.code}>pages/index.tsx</code>
         </p>
+
+        <div>
+          <h2>Alterações</h2>
+
+          <ul>
+            <li>
+              Reorganizado estrutura para dentro da pasta{" "}
+              <code className={styles.code}>src</code>
+            </li>
+          </ul>
+        </div>
       </main>
     </div>
   );

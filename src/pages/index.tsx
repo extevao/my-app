@@ -18,7 +18,7 @@ const Home: NextPage = () => {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Bem vindo ao <a href="#">Next.js!</a>
+          Bem vindo ao <a href="#">Projetinho</a>
         </h1>
 
         <p className={styles.description}>
@@ -45,6 +45,7 @@ const Home: NextPage = () => {
                 />
               </span>
             </li>
+            <li>Script ignore build step</li>
           </ul>
         </div>
       </main>

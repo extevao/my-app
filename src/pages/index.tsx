@@ -1,5 +1,6 @@
 import type { NextPage } from "next";
 import Head from "next/head";
+import Image from "next/image";
 import styles from "../styles/Home.module.css";
 
 const Home: NextPage = () => {
@@ -24,6 +25,28 @@ const Home: NextPage = () => {
           Get started by editing{" "}
           <code className={styles.code}>pages/index.tsx</code>
         </p>
+
+        <div>
+          <h2>Alterações</h2>
+
+          <ul>
+            <li>
+              Reorganizado estrutura para dentro da pasta{" "}
+              <code className={styles.code}>src</code>
+            </li>
+            <li>
+              Novo favicon
+              <span className={styles.logo}>
+                <Image
+                  src="/favicon.ico"
+                  alt="Favicon "
+                  width={20}
+                  height={20}
+                />
+              </span>
+            </li>
+          </ul>
+        </div>
       </main>
     </div>
   );

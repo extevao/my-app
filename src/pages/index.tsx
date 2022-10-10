@@ -1,5 +1,6 @@
 import type { NextPage } from "next";
 import Head from "next/head";
+import Image from "next/image";
 import styles from "../styles/Home.module.css";
 
 const Home: NextPage = () => {
@@ -32,6 +33,17 @@ const Home: NextPage = () => {
             <li>
               Reorganizado estrutura para dentro da pasta{" "}
               <code className={styles.code}>src</code>
+            </li>
+            <li>
+              Novo favicon
+              <span className={styles.logo}>
+                <Image
+                  src="/favicon.ico"
+                  alt="Favicon "
+                  width={20}
+                  height={20}
+                />
+              </span>
             </li>
           </ul>
         </div>
